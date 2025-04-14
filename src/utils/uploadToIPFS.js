@@ -28,7 +28,7 @@ export const uploadToIPFS = async (file, name) => {
     const result = await response.json();
     const hash = result.IpfsHash;
     console.log(hash)
-const response2 = await fetch("http://localhost:5000/certificate", {
+const response2 = await fetch("https://certichain-e6kz.onrender.com/certificate", {
   method: "POST",
   headers: {
     "Content-Type": "application/json", // Ensure the server knows it's receiving JSON

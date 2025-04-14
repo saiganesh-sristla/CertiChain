@@ -34,7 +34,7 @@ const VerifierDashboard = () => {
         return;
       }
 
-      const response = await fetch(`http://localhost:5000/${ipfsHash}`);
+      const response = await fetch(`https://certichain-e6kz.onrender.com/${ipfsHash}`);
       const data = await response.json();
 
       if (response.ok) {

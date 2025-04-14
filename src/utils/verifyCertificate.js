@@ -1,5 +1,5 @@
 export const verify = async (hash) => {
-    const response = await fetch(`http://localhost:5000/${hash}`, {
+    const response = await fetch(`https://certichain-e6kz.onrender.com/${hash}`, {
         method: "GET"
     });
     const result = await response.json();
