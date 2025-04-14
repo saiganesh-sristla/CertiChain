@@ -1,0 +1,51 @@
+{
+  "name": "certificate-validation",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@pinata/sdk": "^2.1.0",
+    "@tailwindcss/postcss": "^4.0.9",
+    "@tailwindcss/vite": "^4.0.9",
+    "buffer": "^6.0.3",
+    "ethers": "^6.13.5",
+    "events": "^3.3.0",
+    "file-saver": "^2.0.5",
+    "framer-motion": "^12.4.10",
+    "lucide-react": "^0.477.0",
+    "process": "^0.11.10",
+    "qr-scanner": "^1.4.2",
+    "qrcode.react": "^4.2.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-qr-code": "^2.0.15",
+    "react-router-dom": "^7.2.0",
+    "react-toastify": "^11.0.5",
+    "stream-browserify": "^3.0.0",
+    "vite-plugin-node-polyfills": "^0.23.0",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "dotenv": "^16.4.7",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "hardhat": "^2.22.19",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9",
+    "vite": "^6.2.0"
+  }
+}

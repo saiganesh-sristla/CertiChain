@@ -1,0 +1,16 @@
+const [isValid, ipfsHash] = await contract.verifyC
+const contract = await ethers.getContractAt("CertificateValidation", "0x10E28eee751F3FeeD8b63b1efE522dC9C9F75DeC");
+const [isValid, ipfsHash] = await contract.verifyCertificate("123");
+const contract = await ethers.getContractAt("CertificateValidation", "0x955375DA8Df8039cc1594450d5165E4D39c4279c");
+const [isValid, ipfsHash] = await contract.verifyCertificate("123");
+const [isValid, ipfsHash] = await contract.verifyCertificate("CERT123");
+const contract = await ethers.getContractAt("CertificateValidation", "0x955375DA8Df8039cc1594450d5165E4D39c4279c");
+const [isValid, ipfsHash] = await contract.verifyCertificate("123");
+const contract = await ethers.getContractAt("CertificateValidation", "0x10E28eee751F3FeeD8b63b1efE522dC9C9F75DeC");
+console.log(isValid, ipfsHash);
+;
+console.log(isValid
+const [isValid, ipfsHash] = await contract.verifyCertificate("123");
+const [isValid, ipfsHash] = await contract.verifyCertifconsole.log(isValid, ipfsHash);
+const contract = await ethers.getContractAt("CertificateValidation", "0xYourContractAddress");
+(bool isValid, string memory ipfsHash) = verifyCertificate("CERT123");

@@ -1,0 +1,75 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "C:\\Users\\saiga\\OneDrive\\Desktop\\Swapnali's project\\certificate-validation\\contracts\\CertificateValidation.sol": {
+      "lastModificationDate": 1740898742228,
+      "contentHash": "25b9957e32bf881ad518c910dbdc5dec",
+      "sourceName": "contracts/CertificateValidation.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "CertificateValidation"
+      ]
+    },
+    "C:\\Users\\saiga\\OneDrive\\Desktop\\Swapnali's project\\certificate-validation\\contracts\\Lock.sol": {
+      "lastModificationDate": 1740841657883,
+      "contentHash": "02f155efc448a1df3d30dbc95c3043aa",
+      "sourceName": "contracts/Lock.sol",
+      "solcConfig": {
+        "version": "0.8.18",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.18"
+      ],
+      "artifacts": [
+        "Lock"
+      ]
+    }
+  }
+}
